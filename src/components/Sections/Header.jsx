@@ -38,7 +38,6 @@ export default function Header() {
               <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>FS5</p>
             </div>
           </QuoteWrapper>
-          asdfasf
           <DotsWrapper>
             <Dots />
           </DotsWrapper>
