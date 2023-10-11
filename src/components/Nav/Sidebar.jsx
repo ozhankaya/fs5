@@ -10,9 +10,9 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
     <Wrapper className="animate darkBg" sidebarOpen={sidebarOpen}>
       <SidebarHeader className="flexSpaceCenter">
         <div className="flexNullCenter">
-          <LogoIcon />
+          {/* <LogoIcon /> */}
           <h1 className="whiteColor font20" style={{ marginLeft: "15px" }}>
-            fanatic
+            FS5
           </h1>
         </div>
         <CloseBtn onClick={() => toggleSidebar(!sidebarOpen)} className="animate pointer">
@@ -63,7 +63,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             Projects
           </Link>
         </li>
-        <li className="semiBold font15 pointer">
+        {/* <li className="semiBold font15 pointer">
           <Link
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
@@ -76,8 +76,8 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           >
             Blog
           </Link>
-        </li>
-        <li className="semiBold font15 pointer">
+        </li> */}
+        {/* <li className="semiBold font15 pointer">
           <Link
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
@@ -90,7 +90,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           >
             Pricing
           </Link>
-        </li>
+        </li> */}
         <li className="semiBold font15 pointer">
           <Link
             onClick={() => toggleSidebar(!sidebarOpen)}

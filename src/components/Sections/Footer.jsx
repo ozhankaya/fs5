@@ -21,7 +21,7 @@ export default function Contact() {
 
             </Link>
             <StyleP class="whiteColor font13">
-              <span className="purpleColor font13">© 2023 |FS5 All Right Reserved</span> 
+              <span className="purpleColor font13">2023 | FS5</span> 
             </StyleP>
 
             <Link className="whiteColor animate pointer font13" to="home" smooth={true} offset={-80}>
